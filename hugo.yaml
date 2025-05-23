@@ -14,9 +14,9 @@ outputs:
 
 enableRobotsTXT: true
 
-#services:
-  #googleAnalytics:
-    #id: G-MEASUREMENT_ID
+services:
+  googleAnalytics:
+    id: G-0J0Y3LX8KN
   #disqus:
     #shortname: your-disqus-shortname
 
@@ -57,12 +57,14 @@ Menus:
     #   url: /#
     #   parent: dropdown
     #   weight: 2
-
 params:
-  title: "Mostafa Shirvani - DevOps Engineer"
-  description: "DevOps Engineer and Backend Developer specializing in Python, Docker, CI/CD, and cloud infrastructure. Currently seeking opportunities in Europe."
+  title: "Mostafa Shirvani - DevOps Engineer | Python Developer | Europe"
+  description: " DevOps Engineer and Python Developer specializing in CI/CD, Docker, AWS, and automation. Seeking opportunities in Europe. View portfolio and download resume."
+  keywords: "DevOps Engineer, Python Developer, Docker, CI/CD, AWS, Jenkins, Europe Jobs"
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/fav.png"
+  # favicon: "/images/fav_gray.png"
+  favicon: "/images/fav_black.png"
+  
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -113,8 +115,9 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
-    # showBrandLogo: false # Show brand logo in nav bar | default is true
+    # brandLogo: "/images/logo_gray.png" # Logo for the brand | default is the favicon variable
+    brandLogo: "/images/logo_black.png" # Logo for the brand | default is the favicon variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
     brandName: "Mostafa Shirvani" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
@@ -303,12 +306,12 @@ params:
     content: "I'm actively seeking junior-level DevOps and Backend Developer opportunities in Europe. Whether you have a question or want to discuss potential opportunities, I'll try my best to get back to you!"
     btnName: "Contact Me"
     btnLink: "mailto:MostafaShirvani1999@gmail.com" 
-    # formspree:
-    #   enable: true # `contact.email` value will be ignored
-    #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
-    #   emailCaption: "Enter your email address"
-    #   messageCaption: "Enter your message here"
-    #   messageRows: 5
+    formspree:
+      enable: true # `contact.email` value will be ignored
+      formId: "xjkwdzbq" # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'
+      emailCaption: "Enter your email address"
+      messageCaption: "Enter your message here"
+      messageRows: 5
 
   footer:
     recentPosts:
